@@ -1,0 +1,157 @@
+集中式（SVN）：客户端保存代码最新版本的快照
+	svn每次存放的是个版本之间的差异，需要的硬盘空间会相对的小一点，可是回顾的速度很慢
+	优点：代码存放在单一的服务器上，便于项目的管理
+	缺点：服务器单点故障，员工写的代码得不到保障，整个代码都会丢失
+分布式（GIT）：
+	GIT每次存的都是对项目的完整快照 需要的空间相对大一些 但是GIT开发团队已经使用了极致的压缩技术，所以
+		使用GIT比SVN打不了多少
+	客户端并不止提取最新版本的快照，而是把代码仓库完整的镜像下来，这样一来，任何一处协同服务器发生故障，
+	事后都可以用任何一个镜像出来的本地仓库恢复。每一次的提取操作，都是对代码仓库的完整备份。
+
+	区域：
+		工作区：是一个沙箱环境，在工作区里面的修改Git不会对其进行管理
+		暂存区：将一系列的修改提交暂存，交由Git进行管理
+		版本库：将暂存区提交到版本库
+	对象：
+		Git对象：
+			Git对象用于保存文件每个版本的内容
+			问题：
+				1.记住文件每个版本的Hash值并不现实
+				2.在Git中，文件名并没有被保存，我们仅保存了文件内容
+			解决方案：树对象
+		树对象：
+			树对象能解决文件名保存的问题，也允许我们将多个文件组织到一起。Git以一种UNIX文件系统的方式存储内容。
+			所有对象均以树对象-Git对象的形式存储。
+			项目的快照是一个树对象
+		提交对象：
+			项目的版本就是一个提交对象
+	高级命令：
+		git add：
+			将工作目录里的内容做成Git对象放到版本库，再将版本库里的放到暂存区，修改了几个文件就有几个Git对象。
+			生成Git对象是增量的，而不是覆盖的，不管之前这个文件是否生成过Git对象。
+			此命令等价于很多个git hash-object -w 文件名(修改了多少个工作目录中的文件，此命令就要被执行多少次)
+				+git update-index
+		git commit：
+			在提交的时候才会去参照暂存区做成一个树对象，放到版本库里面，再将树对象取出包裹注释，构造成
+			提交对象，再次提交到版本库中。
+			提交动作不会清空暂存区
+			相当于git write-tree + git commit-tree
+
+		一个完整的提交流程至少包含：一个Git对象、一个树对象、一个提交对象。
+		一次提交必定只会有一个树对象、一个提交对象，但是Git对象可以有很多
+
+		$ git config --list
+		core.symlinks=false
+		core.autocrlf=true
+		core.fscache=true
+		color.diff=auto
+		color.status=auto
+		color.branch=auto
+		color.interactive=true
+		help.format=html
+		rebase.autosquash=true
+		http.sslcainfo=E:/Git/mingw64/ssl/certs/ca-bundle.crt
+		http.sslbackend=openssl
+		diff.astextplain.textconv=astextplain
+		filter.lfs.clean=git-lfs clean -- %f
+		filter.lfs.smudge=git-lfs smudge -- %f
+		filter.lfs.process=git-lfs filter-process
+		filter.lfs.required=true
+		credential.helper=manager
+		user.name=Administrator
+		user.email=499974664@qq.com
+
+	工作区的文件包含两种状态，一种是已跟踪，一种是未跟踪。已跟踪还包括已提交、已修改、已暂存。
+	使用git status查看文件的状态。
+
+	Git分支：
+		git的分支，其本质上仅仅是指向提交对象的可变指针
+		HEAD文件存储当前分支，切换分支相当于切换HEAD指向
+		相关指令：
+			新建分支：git branch 分支名
+			切换分支：git checkout 分支名
+			显示分支列表：git branch
+			删除分支：git delete -d 分支名（如果分支有修改未merge，将不会删除）
+			强制删除分支：git branch -D 分支名
+			查看每一个分支的最后一次提交：git branch -v
+			查看项目分支历史：git log --oneline --decorate --graph --all
+			新建一个分支并且使分支指向对应的提交对象（可以是任何一个分支的任何版本）：git branch 分支名 commitHash(提交时的Hash版本号)
+			新建一个分支并且切换上去：git checkout -b 分支名 = git branch 分支名 + git checkout 分支名
+
+		注意：
+			分支切换会改变你工作目录中的文件，在切换分支时，一定要注意你工作目录里面的分支会被改变。如果是切换到一个比较旧
+			的分支，你的工作目录会恢复到该分支最后一次提交时的样子。如果Git不能干净利落的完成这个任务，他将禁止切换分支。
+			每次在切换分支前，提交一下当前分支。
+
+		切换分支会动三个地方：
+			HEAD指向、暂存区、工作目录
+			最佳实践：每次切换分支前，当前分支一定得是干净的（已提交状态，working tree clean），git status红色、绿色都不能有
+			坑：在切换分支时，如果当前分支上有未暂存的修改(第一次)或者未提交的暂存(第一次)，分支可以切换成功，但是这样会污染其他分支
+				后续的切换时会切换失败，并报错。
+
+		实际案例：
+			工作流：
+				1、开发某个功能
+				2、为实现这个需求，创建一个新分支
+				3、在这个分支上开展工作
+				正在此时，突然接到电话需要紧急修补bug，你将按照一下方式来处理：
+				1、提交当前工作分支内容
+				2、切换到生产分支
+				3、为这个紧急任务新建一个分支，并在其中修复它
+				4、在测试通过后，切换回线上分支，然后合并这个修补分支，最后将改动推到线上分支
+				5、切换到最初工作的分支上，继续开发
+
+	Git存储：需要切换分支时，不想因为做了一半的工作创建一次提交，可以将改动进行存储
+		git stash命令会将未完成的修改保存到一个栈中，而你可以在任何时候重新应用这些改动(git stash apply)
+		git stash pop来应用储藏并且立即从栈上扔掉它
+		git stash drop 加上要移除的储藏的名字来移除它
+
+	Git撤销与回退：
+		撤销工作目录中的修改：git checkout -- filename
+		撤回自己的暂存： git reset HEAD filename 撤销后到工作区
+		撤回自己的提交(例如写错注释)： git commit amend
+
+		Reset：
+			git reset --soft HEAD~ 不同于checkout只改变HEAD的指针，此命令带着HEAD和分支一起回退一个版本，
+				不改变暂存区和工作空间，于是我们回退到了git commit之前的状态
+
+			git reset [--mixed] HEAD~ 将HEAD和分支一起回退一个版本，同时暂存区也回退一个版本，
+				回退到git add和git commit之前的状态
+
+			git reset --hard HEAD~ 撤销了最后的提交、git add、git commit以及工作目录中的所有修改
+
+			git checkout commitHash & git reset --hard commitHash
+			1、checkout只动HEAD， --hard动HEAD而且带着分支一起走
+			2、checkou对工作目录安全， --hard是强制覆盖工作目录
+
+		路径Reset：
+			git reset [--mixed] HEAD filename 不会改动HEAD及分支信息，只会撤回暂存区（回到git add前的状态）
+
+		checkout：
+			git checkout branch与git reset --hard branch非常相似，他会更新三者，不过有两点重要的区别
+				1、首先不同于reset，checkout对工作目录是安全的，他会通过检查来确保不会将已更新的文件弄丢。
+					而reset则会不检查，直接覆盖工作区的文件。
+				2、第二个区别就在于如何更新HEAD。reset会移动HEAD所在分支的指向，而checkout只会移动HEAD自身
+					来指向另一个分支
+
+	远程管理：
+
+	远程跟踪分支：
+		远程跟踪分支是远程分支状态的引用。它们是你不能移动的本地分支。当你做任何网络通信时，它们会自己移动
+		它们以remote/branch形式命名。例如，你想看你最后一次与远程仓库origin通信时master分支的状态，你可以查看origin/master
+
+
+	本地分支：
+		将本地分支与远程分支建立联系：git branch --set-upstream origin branch-name 再push
+
+		一个本地分支如何跟踪一个远程跟踪分支
+			1、当克隆的时候 会自动生成一个master本地分支，自动跟踪对应远程跟踪分支
+
+			2、在新建其他分支时，可以指定想要跟踪的远程跟踪分支名
+				git checkout -b 本地分支名 远程跟踪分支名
+				git checkout --track 远程跟踪分支名
+			3、将一个已经存在的本地分支改成远程跟踪分支
+				git branch -u 远程跟踪分支名
+
+
+
