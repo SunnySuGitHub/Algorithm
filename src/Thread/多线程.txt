@@ -1,0 +1,97 @@
+synchronizer{
+	基本的线程同步synchronized，申请锁的对象是在堆里面的对象
+
+	synchronized锁定的是对象，不是锁定的代码块
+
+	同步方法和非同步方法可以同时调用 
+
+	对业务写方法加锁，对业务读方法不加锁，容易产生脏读问题
+	（读到 写的过程还没有完成的数据）
+		
+	synchronized默认出现异常时释放锁，应该catch到异常之后对事务进行回滚
+
+	volatile线程可见，对两个线程公共的变量加volatile
+
+	volatile和synchronized的区别，volatile只保证可见性但是并不保证原子性，synchronized保证原子性
+	而且synchronized比volatile要重
+	volatile不保证原子性，不会造成线程阻塞，相当于多线程操作同一变量，能保证的只是每个线程拿到
+	的值是最新的值，例如多个线程同时进入i++操作，拿到的是同一个i，那么最后造成的结果只是i+1。
+	但是synchronized会造成线程阻塞，相当于单线程在运行，可以保证每次增加都是原子操作。
+	volatile保证下一次这个线程在读取的时候是从内从直接读取的，而不是从自己的缓存区域读取的。
+		
+	AtomXXX类的多个方法并不构成原子性
+
+	调用某个对象的wait()方法，使当前持有这个对象锁的线程进入等待状态并且释放锁，除非其他线程调用这个对象的notify或者notifyAll()方法
+	从wait状态醒过来之后如果想继续运行是需要再次拿到这个对象的锁的，并不是唤醒之后就可以等待时间片运行
+	Object lock = new Object();
+	synchronized(lock){
+		try{
+			lock.wait();锁定的是lock，就是lock.wait()
+		} catch (Excetpion e){
+			e.printStackTrace();
+		} 
+	}
+	
+	锁那个对象就调用那个对象的wait()方法
+	public synchronized void put(T t){
+		while(lists.size() == MAX){
+			try{
+				this.lock();锁定的是这个方法，那就是锁定的这个对象，所以是这个对象wait， this.wait()
+			} catch (Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	Lock lock = new ReentrantLock();
+	使用ReentrantLock必须要手动释放锁，使用synchronized锁定的时候遇到异常，jvm会自动释放锁，但是lock必须手动释放锁，因此经常在finally中进行锁的释放
+	使用ReentrantLock可以进行尝试锁定"tryLock"，如果无法锁定或者在指定时间内无法锁定，线程可以决定是否等待
+	使用ReentrantLock还可以调用lockInterruptibly方法，可以对线程interrupt方法做出响应，一个线程在等待锁的过程中，可以被打断
+	ReentrantLock还可以指定为公平锁（等待时间最长的线程拿到锁）Lock lock = new ReentrantLock(true);代表公平锁
+}
+
+并发容器{
+	单例模式：在内存中只存在一个对象
+	public class Singleton{//即不用加锁也可以实现懒加载
+		private static class Inner{
+			private static Singleton s = new Singleton();
+		}
+		
+		private static Singleton getSingle(){
+			return Inner.s;
+		}
+	}
+	
+	List的remove方法不是原子性的，存在多线程问题
+	Vector虽然remove方法是原子性的，但是如果判断和操作分离还是会出现线程安全问题，两个原子性操作分开了就可能存在线程安全问题，除非把判断和操作放在一个原子操作里面
+	
+	Map/Set{
+		ConcurrentHashMap：HashTable默认是线程安全的，但是效率比较低。ConcurrentHashMap也是线程安全的，但是效率比HashTable高
+		HashTable在添加数据的时候需要锁定整个容器，ConcurrentHashMap是分段锁
+		单线程不考虑并发可以考虑HashMap、TreeMap（排好序的，按照字典序进行排列）、LinkedHashMap
+		想多线程HashTable、ConcurrentHashMap。想线程安全并且排好序的用ConcurrentSkipListMap
+	}
+
+	队列{
+		ArrayList、LinkedList用于并发情况不严重
+		如果需要加锁，使用Collections.synchronizedXXX，返回一个加了锁的容器
+		并发情况队列{
+			ConcurrentLinkedQueue 
+			阻塞式队列BlockingQueue：LinkedBlockingQueue无界队列，ArrayBQ有界队列，TransferQueue，SynchronusQueue  https://www.jianshu.com/p/a636b3d83911
+			DelayQueue延迟队列，执行定时任务
+		}
+		
+		CopyOnWrite：https://www.cnblogs.com/dolphin0520/p/3938914.html
+		添加的时候是需要加锁的，否则多线程写的时候会Copy出N个副本出来。
+		读的时候不需要加锁，如果读的时候有多个线程正在向CopyOnWriteArrayList添加数据，读还是会读到旧的数据，因为写的时候不会锁住旧的CopyOnWriteArrayList
+	}	
+}
+
+线程池{
+	Executor接口用来执行某一任务。只有一个方法execute
+	ExecutorService接口，执行不断运行的服务，可以扔两种任务，一种是execute方法执行的，另一种是submit方法执行的
+	execute方法执行的是一个Runnable对象，Runnable对象是没有返回值的
+	submit方法执行的是一个Callable对象，Callable对象是有返回值的，返回的是Future对象，这个对象代表这线程的执行结果
+	https://blog.csdn.net/guhong5153/article/details/71247266
+	https://www.cnblogs.com/liuchuanfeng/p/6956014.html
+}

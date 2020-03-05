@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Class_7/ByteBufferTest.java" />
+    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="7" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16c19e9a-0ffe-4924-9169-c3833b6ed903" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Algorithm$LockDemo.ic" NAME="LockDemo Coverage Results" MODIFIED="1558242024558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Thread.ThreadAndRunnable.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Algorithm$TwoQueuesStack.ic" NAME="TwoQueuesStack Coverage Results" MODIFIED="1547024104377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Class_3.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Algorithm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Subjectt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/Subjectt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealSubjectt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/RealSubjectt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdkDynamicProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/JdkDynamicProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>run</find>
+      <find>DEFAULT_CAPACITY</find>
+      <find>ensureCapacity</find>
+      <find>DEFAULT_INITIAL_CAPACITY</find>
+      <find>capacity</find>
+      <find>table</find>
+      <find>Condition</find>
+      <find>.acquire</find>
+      <find>abstract</find>
+      <find>acquireInterruptibly</find>
+      <find>acquire</find>
+      <find>isHeldEx</find>
+      <find>set</find>
+      <find>setHead</find>
+      <find>unpark</find>
+      <find>remove</find>
+      <find>expungeStaleEntry</find>
+      <find>tableSizeFor</find>
+      <find>put</find>
+      <find>Future</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Repeat/Utils.java" />
+        <option value="$PROJECT_DIR$/src/Repeat/Sort.java" />
+        <option value="$PROJECT_DIR$/src/Class_2/Hello.java" />
+        <option value="$PROJECT_DIR$/src/Class_2/Counter.java" />
+        <option value="$PROJECT_DIR$/src/Class_2/Pairs.java" />
+        <option value="$PROJECT_DIR$/src/Thread/WaitingForThread/PrintInturns.java" />
+        <option value="$PROJECT_DIR$/src/Thread/WaitingForThread/test.java" />
+        <option value="$PROJECT_DIR$/src/JavaBasic/ValueSort.java" />
+        <option value="$PROJECT_DIR$/src/Thread/ThreadPool/CachedThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/Thread/WaitingForThread/future.java" />
+        <option value="$PROJECT_DIR$/src/Class_1/Main.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Thread/ThreadAndRunnable/ThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/Thread/ThreadAndRunnable/FuturetaskDeme.java" />
+        <option value="$PROJECT_DIR$/src/Class_1/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/Class_1/Test.java" />
+        <option value="$PROJECT_DIR$/src/Thread/ProducerConsumer/Producer_Consumer3.java" />
+        <option value="$PROJECT_DIR$/src/MyLearning/Extends.java" />
+        <option value="$PROJECT_DIR$/src/MyLearning/Jihcheng.java" />
+        <option value="$PROJECT_DIR$/src/MyLearning/readme" />
+        <option value="$PROJECT_DIR$/src/MyLearning/Jicheng/Animal.java" />
+        <option value="$PROJECT_DIR$/src/MyLearning/Jicheng/Bird.java" />
+        <option value="$PROJECT_DIR$/src/MyLearning/Jicheng/Main.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Factory/Main.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Factory/FactoryMethod/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Factory/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Factory/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Adaptee/ClassAdaptee.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Adaptee/ObjectAdaptee.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Bridge/Main.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Adaptee/ObjectAdaptee/AnothorAdaptee.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Adaptee/ObjectAdaptee/AnotherAdaptor.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Adaptee/ObjectAdaptee/Adaptor.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Factory/SimpleFactory/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Factory/SimpleFactory/Main.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/Body.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/Coffee.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/Component.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/BlackCoffee.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/Decorators.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/Milk.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/Sugar.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/Main.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Decorator/Large.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Facade/Shape.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Facade/Circle.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Facade/Square.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Facade/ShapeMaker.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Facade/Main.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/JdkDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/Client.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://E:/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java&#10;String&#9;FILE&#9;jar://E:/Java/jdk1.8.0_171/src.zip!/java/lang/String.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="H:/499974664/FileRecv/采集相关文件/新版采集程序/源代码/CenterCollectSystem" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Program\Algorithm\src\GOF\Factory" />
+      <recent name="E:\Program\Algorithm\src\Thread\ThreadPool" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Decorator.Main" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GOF.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Facade.Main" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GOF.Facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Adaptee.ClassAdaptee.Main" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GOF.Adaptee.ClassAdaptee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Adaptee.ObjectAdaptee.Main" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GOF.Adaptee.ClassAdaptee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Bridge.Main" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GOF.Bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Factory.FactoryMethod.Main" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GOF.Factory.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Producer_Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ProducerConsumer.Producer_Consumer2" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.ProducerConsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Producer_Consumer2" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16c19e9a-0ffe-4924-9169-c3833b6ed903" name="Default" comment="" />
+      <created>1545980307633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545980307633</updated>
+      <workItem from="1545980313887" duration="112000" />
+      <workItem from="1545980467519" duration="5114000" />
+      <workItem from="1545997837870" duration="6058000" />
+      <workItem from="1546004372568" duration="1296000" />
+      <workItem from="1546046703406" duration="9783000" />
+      <workItem from="1546222044245" duration="4668000" />
+      <workItem from="1546437753525" duration="670000" />
+      <workItem from="1546438468102" duration="370000" />
+      <workItem from="1546438930789" duration="1767000" />
+      <workItem from="1546487497527" duration="853000" />
+      <workItem from="1546497502786" duration="607000" />
+      <workItem from="1546500310498" duration="22239000" />
+      <workItem from="1546615351777" duration="2601000" />
+      <workItem from="1546668238838" duration="30756000" />
+      <workItem from="1546782075403" duration="7278000" />
+      <workItem from="1546822236259" duration="12635000" />
+      <workItem from="1546847520935" duration="3224000" />
+      <workItem from="1546856038870" duration="9236000" />
+      <workItem from="1546927140804" duration="17151000" />
+      <workItem from="1547016051833" duration="2713000" />
+      <workItem from="1547022276593" duration="3648000" />
+      <workItem from="1547030651036" duration="5935000" />
+      <workItem from="1547040241067" duration="7892000" />
+      <workItem from="1547084915986" duration="22849000" />
+      <workItem from="1547257594433" duration="11317000" />
+      <workItem from="1547364423642" duration="4014000" />
+      <workItem from="1547429111867" duration="211000" />
+      <workItem from="1547435787170" duration="3774000" />
+      <workItem from="1547532583663" duration="8643000" />
+      <workItem from="1547561333973" duration="3527000" />
+      <workItem from="1547601489636" duration="807000" />
+      <workItem from="1547626623974" duration="3730000" />
+      <workItem from="1547644435760" duration="2591000" />
+      <workItem from="1547727217300" duration="1404000" />
+      <workItem from="1548058685410" duration="4074000" />
+      <workItem from="1548120116651" duration="21000" />
+      <workItem from="1549078799341" duration="609000" />
+      <workItem from="1550451387856" duration="19000" />
+      <workItem from="1550457853584" duration="2310000" />
+      <workItem from="1550538341817" duration="118000" />
+      <workItem from="1550925724650" duration="1970000" />
+      <workItem from="1550989910835" duration="7492000" />
+      <workItem from="1551056490968" duration="6490000" />
+      <workItem from="1551080758851" duration="201000" />
+      <workItem from="1551081022037" duration="2381000" />
+      <workItem from="1551172273133" duration="10154000" />
+      <workItem from="1551231231205" duration="2450000" />
+      <workItem from="1551354165003" duration="8322000" />
+      <workItem from="1551403108947" duration="49000" />
+      <workItem from="1551403507721" duration="8700000" />
+      <workItem from="1551492137627" duration="8774000" />
+      <workItem from="1551524017051" duration="661000" />
+      <workItem from="1551583095169" duration="43000" />
+      <workItem from="1551880651137" duration="583000" />
+      <workItem from="1551941081404" duration="1242000" />
+      <workItem from="1552100055980" duration="8230000" />
+      <workItem from="1552131645279" duration="103000" />
+      <workItem from="1552269266716" duration="2032000" />
+      <workItem from="1552354230128" duration="18000" />
+      <workItem from="1552698002297" duration="10190000" />
+      <workItem from="1552786572725" duration="177000" />
+      <workItem from="1552875597720" duration="2889000" />
+      <workItem from="1552984640643" duration="2309000" />
+      <workItem from="1553003617833" duration="2140000" />
+      <workItem from="1553044777416" duration="2708000" />
+      <workItem from="1553086998703" duration="1952000" />
+      <workItem from="1553166761759" duration="146000" />
+      <workItem from="1553178721879" duration="21000" />
+      <workItem from="1553221275893" duration="9051000" />
+      <workItem from="1553245189340" duration="841000" />
+      <workItem from="1553304744078" duration="5395000" />
+      <workItem from="1553333997696" duration="1803000" />
+      <workItem from="1553393759252" duration="14000" />
+      <workItem from="1553685287799" duration="5142000" />
+      <workItem from="1553756095050" duration="831000" />
+      <workItem from="1553774734422" duration="775000" />
+      <workItem from="1553848358559" duration="8075000" />
+      <workItem from="1553946575995" duration="2776000" />
+      <workItem from="1554001992227" duration="8092000" />
+      <workItem from="1554081238141" duration="5027000" />
+      <workItem from="1554124450049" duration="5232000" />
+      <workItem from="1554168208765" duration="7495000" />
+      <workItem from="1554288804003" duration="5215000" />
+      <workItem from="1555401270062" duration="1478000" />
+      <workItem from="1555845269958" duration="6233000" />
+      <workItem from="1555895367559" duration="29000" />
+      <workItem from="1555927334368" duration="1222000" />
+      <workItem from="1555939200941" duration="1974000" />
+      <workItem from="1556257934782" duration="833000" />
+      <workItem from="1557364993674" duration="1696000" />
+      <workItem from="1557387497636" duration="4275000" />
+      <workItem from="1557405345264" duration="3607000" />
+      <workItem from="1557417766656" duration="1364000" />
+      <workItem from="1557447992463" duration="12000" />
+      <workItem from="1557449443721" duration="1018000" />
+      <workItem from="1557565348653" duration="5476000" />
+      <workItem from="1557626671071" duration="41000" />
+      <workItem from="1558012742555" duration="3983000" />
+      <workItem from="1558056040640" duration="69000" />
+      <workItem from="1558081344922" duration="2545000" />
+      <workItem from="1558098254674" duration="666000" />
+      <workItem from="1558241494277" duration="2467000" />
+      <workItem from="1558314332313" duration="36000" />
+      <workItem from="1558360411571" duration="1387000" />
+      <workItem from="1558401005363" duration="13000" />
+      <workItem from="1558424793309" duration="7573000" />
+      <workItem from="1558486537031" duration="103000" />
+      <workItem from="1558488401626" duration="2788000" />
+      <workItem from="1558875344032" duration="597000" />
+      <workItem from="1558883496628" duration="20000" />
+      <workItem from="1558944506646" duration="4059000" />
+      <workItem from="1559006422266" duration="1374000" />
+      <workItem from="1559026388906" duration="10974000" />
+      <workItem from="1559092246549" duration="24000" />
+      <workItem from="1559442365842" duration="640000" />
+      <workItem from="1559469426612" duration="33000" />
+      <workItem from="1559611651518" duration="1889000" />
+      <workItem from="1559785780323" duration="8465000" />
+      <workItem from="1560067330785" duration="1203000" />
+      <workItem from="1560130777830" duration="54000" />
+      <workItem from="1560151540420" duration="1110000" />
+      <workItem from="1560170111585" duration="1634000" />
+      <workItem from="1560237536299" duration="426000" />
+      <workItem from="1560688278223" duration="1189000" />
+      <workItem from="1560694539440" duration="2403000" />
+      <workItem from="1560735969300" duration="125000" />
+      <workItem from="1560933399141" duration="802000" />
+      <workItem from="1560935299691" duration="2918000" />
+      <workItem from="1560993737341" duration="81000" />
+      <workItem from="1560999096566" duration="4608000" />
+      <workItem from="1561175486236" duration="73000" />
+      <workItem from="1564900657285" duration="5695000" />
+      <workItem from="1565416044587" duration="1230000" />
+      <workItem from="1565495306971" duration="2665000" />
+      <workItem from="1565521627340" duration="6573000" />
+      <workItem from="1566046583360" duration="39000" />
+      <workItem from="1566744967564" duration="982000" />
+      <workItem from="1566827499873" duration="2645000" />
+      <workItem from="1566913337265" duration="617000" />
+      <workItem from="1566989438421" duration="1813000" />
+      <workItem from="1567078937793" duration="3262000" />
+      <workItem from="1567090320124" duration="914000" />
+      <workItem from="1567345291102" duration="1269000" />
+      <workItem from="1567585612594" duration="7171000" />
+      <workItem from="1567737330035" duration="3129000" />
+      <workItem from="1567759060545" duration="4872000" />
+      <workItem from="1567785952511" duration="1011000" />
+      <workItem from="1567854572133" duration="7225000" />
+      <workItem from="1568016262565" duration="3909000" />
+      <workItem from="1568076401392" duration="6407000" />
+      <workItem from="1568164202594" duration="7615000" />
+      <workItem from="1568199675723" duration="2680000" />
+      <workItem from="1568247378010" duration="159000" />
+      <workItem from="1568273222082" duration="7082000" />
+      <workItem from="1568448512951" duration="1367000" />
+      <workItem from="1568544806575" duration="4480000" />
+      <workItem from="1568599481663" duration="600000" />
+      <workItem from="1568622277562" duration="7191000" />
+      <workItem from="1568796294547" duration="3347000" />
+      <workItem from="1568891316637" duration="3376000" />
+      <workItem from="1569057431856" duration="1844000" />
+      <workItem from="1569214631956" duration="19000" />
+      <workItem from="1570676642438" duration="4174000" />
+      <workItem from="1573569297353" duration="47000" />
+      <workItem from="1582547259762" duration="3791000" />
+      <workItem from="1582617613634" duration="39000" />
+      <workItem from="1582946099038" duration="2197000" />
+      <workItem from="1583024680330" duration="5986000" />
+      <workItem from="1583115760007" duration="70000" />
+      <workItem from="1583375777615" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="NIOTest_client - 2019.05.11 at 17h 49m 14s.xml">
+      <configuration name="NIOTest.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_server - 2019.05.11 at 17h 49m 52s.xml">
+      <configuration name="NIOTest.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_server - 2019.05.11 at 17h 54m 27s.xml">
+      <configuration name="NIOTest.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_client - 2019.05.11 at 19h 30m 35s.xml">
+      <configuration name="NIOTest.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_server - 2019.05.11 at 19h 31m 18s.xml">
+      <configuration name="NIOTest.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_client - 2019.05.11 at 19h 32m 22s.xml">
+      <configuration name="NIOTest.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_server - 2019.05.11 at 19h 32m 52s.xml">
+      <configuration name="NIOTest.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_server - 2019.05.11 at 19h 33m 52s.xml">
+      <configuration name="NIOTest.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_client - 2019.05.11 at 19h 36m 27s.xml">
+      <configuration name="NIOTest.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIOTest_server - 2019.05.11 at 19h 36m 27s.xml">
+      <configuration name="NIOTest.server" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="598148000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.4981203" weight="0.3299356" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42729306" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.69540876" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="1" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.72493225" visible="true" weight="0.28624734" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4981203" weight="0.3299356" />
+      <window_info id="Structure" order="3" sideWeight="0.27506775" side_tool="true" weight="0.27985075" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49624062" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="4" sideWeight="0.8782051" side_tool="true" weight="0.19581544" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54809844" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5018797" side_tool="true" weight="0.3299356" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.25925925" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298611" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4981203" weight="0.3299356" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.72493225" visible="true" weight="0.27985075" />
+      <window_info id="Structure" order="3" sideWeight="0.27506775" side_tool="true" weight="0.27985075" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49624062" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.046979867" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54809844" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5018797" side_tool="true" weight="0.3299356" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.25925925" />
+      <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.4981203" weight="0.3299356" />
+      <window_info id="Favorites" order="4" sideWeight="0.8782051" side_tool="true" weight="0.19581544" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="194" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="node1.next.next.next.next" />
+        <watch expression="node4" />
+        <watch expression="pRoot.left" />
+        <watch expression="tree.root.left.right.left" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Thread/ProducerConsumer/Producer_Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/ThreadPool/MyExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/WaitingForThread/countDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5500">
+          <caret line="290" column="20" selection-start-line="290" selection-start-column="20" selection-end-line="290" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13772">
+          <caret line="669" column="17" selection-start-line="669" selection-start-column="17" selection-end-line="669" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLearning/Extends.java" />
+    <entry file="file://$PROJECT_DIR$/src/MyLearning/Jihcheng.java" />
+    <entry file="file://$PROJECT_DIR$/src/Thread/WaitingForThread/PrintInturns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLearning/Jicheng/Father.java" />
+    <entry file="file://$PROJECT_DIR$/src/MyLearning/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Factory/aaa" />
+    <entry file="file://$PROJECT_DIR$/src/MyLearning/Jicheng/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLearning/Jicheng/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLearning/Jicheng/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Factory/SimpleFactory/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" selection-start-line="14" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Factory/FactoryMethod/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Adaptee/ObjectAdaptee/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Bridge/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/GOF.Bridge.Main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>GOF.Bridge.Main</OriginalElement>
+          <nodes>
+            <node x="" y="">GOF.Bridge.Main</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="39.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/GOF.Bridge.Computer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>GOF.Bridge.Computer</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="53.0" y="32.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Adaptee/ClassAdaptee/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Adaptee/ClassAdaptee/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Adaptee/ClassAdaptee/Adaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Adaptee/ClassAdaptee/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Adaptee/ObjectAdaptee/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Adaptee/ObjectAdaptee/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Adaptee/ObjectAdaptee/Adaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Factory/SimpleFactory/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Decorator/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Decorator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/GOF.Decorator.BlackCoffee">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>GOF.Decorator.BlackCoffee</OriginalElement>
+          <nodes>
+            <node x="-429.0" y="225.0">GOF.Decorator.Main</node>
+            <node x="-279.5" y="-10.5">GOF.Decorator.Decorators</node>
+            <node x="-429.0" y="104.0">GOF.Decorator.Milk</node>
+            <node x="-254.0" y="104.0">GOF.Decorator.Large</node>
+            <node x="-79.0" y="104.0">GOF.Decorator.Sugar</node>
+            <node x="-53.5" y="-22.0">GOF.Decorator.BlackCoffee</node>
+            <node x="-153.75" y="-148.0">GOF.Decorator.Component</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="GOF.Decorator.Decorators" target="GOF.Decorator.Component">
+              <point x="0.0" y="-26.5" />
+              <point x="-176.5" y="-47.0" />
+              <point x="-115.0" y="-47.0" />
+              <point x="-38.75" y="38.0" />
+            </edge>
+            <edge source="GOF.Decorator.Milk" target="GOF.Decorator.Decorators">
+              <point x="0.0" y="-38.0" />
+              <point x="-351.5" y="79.0" />
+              <point x="-245.16666666666669" y="79.0" />
+              <point x="-68.66666666666669" y="26.5" />
+            </edge>
+            <edge source="GOF.Decorator.Sugar" target="GOF.Decorator.Decorators">
+              <point x="0.0" y="-38.0" />
+              <point x="-1.5" y="79.0" />
+              <point x="-107.83333333333331" y="79.0" />
+              <point x="68.66666666666669" y="26.5" />
+            </edge>
+            <edge source="GOF.Decorator.Large" target="GOF.Decorator.Decorators">
+              <point x="0.0" y="-38.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="GOF.Decorator.BlackCoffee" target="GOF.Decorator.Component">
+              <point x="0.0" y="-38.0" />
+              <point x="24.0" y="-47.0" />
+              <point x="-37.5" y="-47.0" />
+              <point x="38.75" y="38.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="-359.0" y="-53.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Decorator/BlackCoffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Decorator/Decorators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Decorator/Sugar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Decorator/Milk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Decorator/Large.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Facade/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Facade/ShapeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Facade/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Facade/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Facade/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/GOF.Proxy.StaticProxy.BusinessInterface">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>GOF.Proxy.StaticProxy.BusinessInterface</OriginalElement>
+          <nodes>
+            <node x="" y="">GOF.Proxy.JDKDynamicProxy.JdkDynamicProxy</node>
+            <node x="" y="">GOF.Proxy.JDKDynamicProxy.RealSubjectt</node>
+            <node x="" y="">GOF.Proxy.StaticProxy.test</node>
+            <node x="" y="">GOF.Proxy.JDKDynamicProxy.Subjectt</node>
+            <node x="" y="">GOF.Proxy.StaticProxy.Business</node>
+            <node x="" y="">GOF.Proxy.JDKDynamicProxy.Client</node>
+            <node x="" y="">GOF.Proxy.StaticProxy.BusinessInterface</node>
+            <node x="" y="">GOF.Proxy.StaticProxy.BusinessProxy</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="75.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/StaticProxy/Business.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/StaticProxy/BusinessProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/StaticProxy/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/StaticProxy/BusinessInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/GOF.Proxy.JDKDynamicProxy.Subjectt">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>GOF.Proxy.JDKDynamicProxy.Subjectt</OriginalElement>
+          <nodes>
+            <node x="" y="">GOF.Proxy.StaticProxy.test</node>
+            <node x="" y="">GOF.Proxy.StaticProxy.Business</node>
+            <node x="" y="">GOF.Proxy.StaticProxy.BusinessInterface</node>
+            <node x="" y="">GOF.Proxy.StaticProxy.BusinessProxy</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/Subjectt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/RealSubjectt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/JdkDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GOF/Proxy/JDKDynamicProxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Algorithm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
